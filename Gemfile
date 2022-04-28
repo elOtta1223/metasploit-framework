@@ -39,7 +39,7 @@ group :test do
   # cucumber extension for testing command line applications, like msfconsole
   gem 'aruba'
   # cucumber + automatic database cleaning with database_cleaner
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 1.6.0', :require => false
   gem 'shoulda-matchers'
   # Manipulate Time.now in specs
   gem 'timecop'

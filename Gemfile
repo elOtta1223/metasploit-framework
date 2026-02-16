@@ -19,7 +19,7 @@ group :development do
   # for development and testing purposes
   gem 'pry'
   # module documentation
-  gem 'octokit', '~> 4.0'
+  gem 'octokit', '~> 4.23', '>= 4.23.0'
   # rails-upgrade staging gems
 end
 
